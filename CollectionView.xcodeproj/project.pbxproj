@@ -16,6 +16,7 @@
 		0ACDC4EE28C7CCED00F21CE0 /* CollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4ED28C7CCED00F21CE0 /* CollectionViewTests.swift */; };
 		0ACDC4F828C7CCED00F21CE0 /* CollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4F728C7CCED00F21CE0 /* CollectionViewUITests.swift */; };
 		0ACDC4FA28C7CCED00F21CE0 /* CollectionViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC4F928C7CCED00F21CE0 /* CollectionViewUITestsLaunchTests.swift */; };
+		0ACDC50728C7CE4200F21CE0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ACDC50628C7CE4200F21CE0 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0ACDC4F328C7CCED00F21CE0 /* CollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ACDC4F728C7CCED00F21CE0 /* CollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITests.swift; sourceTree = "<group>"; };
 		0ACDC4F928C7CCED00F21CE0 /* CollectionViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0ACDC50628C7CE4200F21CE0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				0ACDC4DF28C7CCED00F21CE0 /* Assets.xcassets */,
 				0ACDC4E128C7CCED00F21CE0 /* LaunchScreen.storyboard */,
 				0ACDC4E428C7CCED00F21CE0 /* Info.plist */,
+				0ACDC50628C7CE4200F21CE0 /* CollectionViewCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				0ACDC4DB28C7CCEB00F21CE0 /* ViewController.swift in Sources */,
 				0ACDC4D728C7CCEB00F21CE0 /* AppDelegate.swift in Sources */,
+				0ACDC50728C7CE4200F21CE0 /* CollectionViewCell.swift in Sources */,
 				0ACDC4D928C7CCEB00F21CE0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
